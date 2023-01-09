@@ -68,9 +68,9 @@
       .Z{
         width: 30%;
       }
-      .Z img{
-        width: 100%;
-        padding-top: 5px;
+       .Z img{
+        width: 50%;
+        padding-top: 15px;
       }
       .B{
         display: flex;
