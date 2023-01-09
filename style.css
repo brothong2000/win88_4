@@ -149,7 +149,7 @@ li{
     margin: auto;
     background-color: rgba(0, 0, 0, 0.137);
 }
-.overlay-content:hover a{
+.overlay-content a:hover {
    color: red;
 }
 .f_t a{
