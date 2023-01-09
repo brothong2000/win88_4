@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(18, 85, 18);
+}
+.center{
+    overflow: hidden;
+    width: 100%;
+  }
+  .header{
+    width: 100%;          
+  }
+  .Z img{
+      width: 20%;
+  }
+  .B a{
+      font-size: 20px;
+      color: white;
+     padding: 0px 20px;
+     text-decoration: none;
+  }
+  .a1{
+      background: red;
+      border-radius: 20px;
+      margin: 0 5px;
+  }
+  .a2{
+      background: coral;
+      border-radius: 20px;
+      margin: 0 5px;
+  }
+  .C ul{
+      list-style-type: none;
+  }
+  .C ul li{
+      display: inline-block;
+  }
+  .C ul li a{
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      padding-left: 35px;
+  }
+  .C ul li:hover a{
+     color:red
+  }
+  .m{
+    margin: auto;
+  }
+/* /// */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left:0;
+    background-color: rgb(0,0,0);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .mm{
+    display: none;
+  }
+  .overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f5ecec;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+.header{
+    z-index: 50;
+    position:fixed;
+}
+.container-lg{
+    /* position: relative; */
+    margin-top: 110px;
+}
+/* // */
+.m{
+    margin: auto;
+}
+.span{
+    font-size: 30px;
+    color: yellow;
+    font-weight: 900;
+}
+.bl_1{
+    margin-top: 15px;
+    border: 2px solid greenyellow;
+}
+.A img{
+    width: 70%;
+}
+p{
+    color: #ffff;
+    font-size: 20px;
+}
+.strong{
+    font-size: 25px;
+}
+.bl_2{
+    border: 2px solid greenyellow;
+}
+.bl_3{
+    border: 2px solid yellowgreen;
+}
+.block3_img img{
+    width: 100%;
+    transform: scale(.9);
+    transition: all .5s; 
+}
+.block3_img:hover img{
+    transform: scale(1);
+}
+li{
+    list-style-type: none;
+}
+ a{
+    text-decoration: none;
+}
+.bl_4{
+    border: 2px solid yellowgreen;
+}
+.bl4_img img{
+    width: 100%;
+}
+.center{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.overlay-content:hover a{
+   color: red;
+}
+.f_t a{
+    color: white;
+}
