@@ -40,9 +40,9 @@ body{
   }
   .C ul li a{
       text-decoration: none;
-      font-size: 20px;
+      font-size: 18px;
       color: white;
-      padding-left: 35px;
+      padding-left: 25px;
   }
   .C ul li:hover a{
      color:red
