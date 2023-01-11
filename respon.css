@@ -4,22 +4,22 @@
       }
         .mm{
             display: block!important;
+            padding-left: 200px;
           }
           .C{
             display: none;
           }
           .Z{
-            width: 30%;
+            width: 25%;
           }
           .Z img{
             width: 100%;
-            padding-top: 15px;
+            padding-top: 2px;
           }
           .B{
-            width: 70%;
-            padding-bottom: 10px;
+            width: 75%;
+            /* padding-bottom: 10px; */
           }
-         
         .overlay-content{
           position: absolute;
         }
@@ -39,7 +39,7 @@
         font-size: 12px;
     }
     .strong{
-        font-size: 15px;
+        font-size: 16px;
     }
     .btn_icon img{
         width: 30%;
@@ -54,37 +54,45 @@
         flex: 0 0 auto;
         width: 100%;
     }
+    .f_ter{
+      width: 100%;
+    }
     .f_t{
-        width: 100%;
+        width: 50%;
+    }
+    .f_t1{
+      width: 100%;
     }
 }
 @media (min-width: 481px) and (max-width: 767px){
     .mm{
         display: block!important;
+        padding-top: 10px;
       }
       .C{
         display: none;
       }
       .Z{
-        width: 30%;
+        width: 25%;
       }
-       .Z img{
+      .Z img{
         width: 80%;
         padding-top: 5px;
       }
+      .H{
+        width: 70%;
+      }
       .B{
         display: flex;
-        flex-direction: row;
-        justify-content: space-around  ;
-        align-items: center;
-        width: 70%;
+        /* flex-direction: row; */
+        justify-content: space-around ;
+        /* align-items: center; */
+        width: 75%;
         padding-bottom: 10px;
       }
-     
     .overlay-content{
       position: absolute;
     }
-     
     .B a{
       font-size: 20px;
       padding-right: 5px!important;
@@ -103,10 +111,10 @@
         width: 100%;
     }
     p{
-        font-size: 12px;
+        font-size: 18px;
     }
     .strong{
-        font-size: 15px;
+        font-size: 22px;
     }
     .btn_icon img{
         width: 30%;
@@ -121,15 +129,12 @@
         width: 100%;
     }
     .f_t{
-        width: 49%;
-        margin-left: 5px;
+        width: 50%;
     }
     .f_t1{
-        width: 98%;
-        margin-left: 5px;
+        width: 100%; 
     }
 }
-
 @media (min-width: 768px) and (max-width: 1024px){
 
     .C ul li a {
@@ -138,10 +143,8 @@
         color: white;
         padding-left: 5px;
       }
-    
       .Z img{
-        width: 25%;
-        padding-top: 5px;
+        width: 30%;
       }
       .H{
         padding-bottom: 10px;
@@ -152,10 +155,8 @@
     }
     .f_t{
         width: 49%;
-        margin-left: 5px;
     }
     .f_t1{
         width: 98%;
-        margin-left: 5px;
     }
 }
